@@ -107,6 +107,8 @@ int main()
         outTypeString(i, input, stack, output);
         i++;
     }
-    cout << "\n\n\n\n\n\n";
+    cout << "\n\n\n\n\n\n Введите любую клавишу для выхода.\n";
+    cin >> inputStr;
+    return 0;
 }
 
